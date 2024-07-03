@@ -1,8 +1,8 @@
 {
-  "name": "todos-express-starter",
+  "name": "todos-manager",
   "version": "0.0.0",
   "private": true,
-  "description": "Starter todo app using Express, Passport, and SQLite for sign in.",
+  "description": "Todo app using Express, Passport, and SQLite for sign in.",
   "keywords": [
     "example",
     "express",
@@ -10,9 +10,9 @@
     "sqlite"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "https://www.jaredhanson.me/"
+    "name": "Voi Chen",
+    "email": "voi224051@gmail.com",
+    "url": "https://github.com/voi224051/"
   },
   "homepage": "https://github.com/passport/todos-express-starter",
   "repository": {
@@ -26,20 +26,25 @@
     "type": "github",
     "url": "https://github.com/sponsors/jaredhanson"
   },
-  "license": "Unlicense",
+  "license": "MIT",
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "connect-sqlite3": "^0.9.15",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.6.0",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+    "express-session": "^1.18.0",
     "http-errors": "~1.6.3",
     "mkdirp": "^1.0.4",
     "morgan": "~1.9.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
     "pluralize": "^8.0.0",
+    "session": "^0.1.0",
     "sqlite3": "^5.0.2"
   }
 }
